@@ -39,3 +39,23 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# Segredos (Supabase etc.) — nunca versionar
+.env
+.env.*
+!.env.example
+
+# Builds e credenciais de assinatura (o EAS guarda o keystore; nunca versionar)
+*.apk
+*.aab
+*.ipa
+*.keystore
+credentials.json
+credentials/
+
+# Skills de terceiros (reinstalar com: npx ui-ux-pro-max-cli init --ai claude)
+.claude/skills/
+ui-ux-pro-max-skill.zip
+
+# Testes
+coverage/
