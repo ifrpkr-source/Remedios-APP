@@ -19,10 +19,13 @@ npx expo start      # Expo Go serve para navegar; alarmes exigem build de desenv
 
 ## Testar no celular
 
-**Guia completo:** `docs/INSTALAR-NO-CELULAR.md` · **Checklist de testes:** `docs/CHECKLIST-CELULAR.md`.
+Comece por `docs/INSTALAR-NO-CELULAR.md`.
 
-Para validar alarmes, gere o **APK preview** (`eas build --profile preview --platform android`): ele funciona sozinho,
-sem computador conectado. A build de desenvolvimento abaixo serve para programar.
+- **iPhone (prioridade):** `docs/INSTALAR-NO-IPHONE.md` e `docs/CHECKLIST-IPHONE.md`. Não precisa de Mac nem de cabo;
+  a build *preview* independente exige Apple Developer Program (US$ 99/ano).
+- **Android:** `docs/INSTALAR-NO-ANDROID.md` e `docs/CHECKLIST-ANDROID.md` (APK gratuito).
+
+A build *preview* (`eas build --profile preview`) funciona sozinha, sem computador conectado. A build de desenvolvimento abaixo serve para programar.
 
 ## Build de desenvolvimento (para programar)
 

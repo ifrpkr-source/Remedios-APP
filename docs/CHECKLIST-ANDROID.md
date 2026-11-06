@@ -1,4 +1,4 @@
-# Checklist prático — teste no celular
+# Checklist prático — teste em Android
 
 Use **só dados fictícios**. Marque cada item e anote o horário real quando pedido.
 O roteiro detalhado, com casos extras e iOS, está em `TESTES-MANUAIS-FASE-B.md`.
